@@ -37,11 +37,12 @@
 
     <!-- CONTENIDO DE TU PAGINA -->
     <div class="container">
-        <h1>Imagen aleatoria</h1>
+        <h1 id="namePokemon" class="text-center">Pokemon</h1>
         <div class="row">
             <div class="col-sm-6 mx-auto text-center">
-                <img src="./assets/images/logo_html_5.png" alt="Logo HTML" style="height: 500px;" id="imgRandom">
-                <button type="button" class="btn btn-primary mt-5" onclick="randomImage()">Random!</button>
+                <img src="./assets/images/Pokemon-Logo.png" alt="Logo HTML" style="height: 500px;" id="imgPokemon">
+                <button type="button" class="btn btn-primary mt-5" onclick="randomPokemon()">Random!</button>
+                <h3 class="mt-3">Peso:</h3><h6 id="weightPokemon"></h6>
             </div>
         </div>
     </div>
